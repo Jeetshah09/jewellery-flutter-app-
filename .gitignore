@@ -43,3 +43,24 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Backend runtime files
+backend/.env
+backend/.venv/
+backend/*.db
+
+# Editor settings
+.vscode/
+
+# Backend secrets and runtime files
+backend/.env
+backend/.venv/
+backend/__pycache__/
+
+# Editor settings
+.vscode/
+
+# Backend secrets and runtime files
+backend/.env
+backend/.venv/
+backend/__pycache__/

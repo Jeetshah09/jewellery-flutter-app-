@@ -1,0 +1,14 @@
+### Health
+GET http://127.0.0.1:8000/health
+
+### Admin login (change credentials in backend/.env)
+POST http://127.0.0.1:8000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@aurelia.test",
+  "password": "change-this-password"
+}
+
+### Public catalogue
+GET http://127.0.0.1:8000/api/products
